@@ -1,0 +1,115 @@
+.placesContainer{
+    width: 90%;
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+.placesheading{
+    text-align: center;
+    font-weight: 700;
+    font-family: serif;
+    margin-top: 3rem;
+    
+}
+.placedata{
+    display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+  
+  
+}
+.palceshead{
+    padding: 0 2rem;
+}
+
+.place1{
+    width: 20%;
+    font-weight: 700;
+    font-size: 17px;
+}
+  .placedata{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    
+  }
+  .placedata p{ 
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+.placeflex{
+    display: flex;
+    margin: 1rem 0;
+}
+
+@media all and (max-width:1025px){
+  .place1{
+    font-size: 16px ;
+    width: 25%;
+    font-weight: 600;
+  }
+  .placedata{
+    width: 75%;
+ 
+  }
+}
+@media all and (max-width:769px){
+  .place1{
+    font-size: 15px ;
+    width: 25%;
+    font-weight: 600;
+  }
+  .placedata{
+    width: 75%;
+  }
+  .placesContainer{
+    width: 100%;
+    padding: 2rem 0;    
+  }
+  .placedata p{ 
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+@media all and (max-width:426px){
+  .palceshead{
+    padding: 0;
+}
+  .place1{
+    font-size: 14px ;
+    width: 22%;
+    font-weight: 600;
+  }
+  .placedata{
+    width: 78%;
+  }
+  .placedata p{ 
+    margin-top: 1px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+}
+
+@media all and (max-width:321px){
+
+  .place1{
+    font-size: 14px ;
+    width: 25%;
+    font-weight: 600;
+  }
+  .placedata{
+    width: 75%;
+  }
+  .placedata p{ 
+    margin-top: 1px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+}

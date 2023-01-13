@@ -1,0 +1,136 @@
+.circle1, .circle2{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #25d366;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    animation: anime 2s linear infinite;
+}
+
+@keyframes anime{
+    0%{
+        transform: scale(1);
+        background-color: rgba(179, 154, 255, 1);
+    }
+    100%{
+        transform: scale(2);
+        background-color: rgba(179, 154, 255, 0);
+    }
+}
+
+.maincontact{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    text-align: center;
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: white;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: #7142f8;
+    z-index: 9999;
+    cursor: pointer;
+}
+.mainwhatsap{
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    text-align: center;
+    bottom: 7rem;
+    right: 2.5rem;
+    font-size: 2rem;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #25d366;
+    z-index: 9999;
+    cursor: pointer;
+}
+.mainwhatsap:hover{
+    color: #7142f8;
+}
+.maincall{
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    text-align: center;
+    bottom: 11rem;
+    right: 2.5rem;
+    font-size: 2rem;
+    color: white;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: #25d366;
+    z-index: 9999;
+    cursor: pointer;
+}
+.maincall:hover{
+    color: #7142f8;
+}
+
+
+@media all and (max-width:700px){
+    .circle1, .circle2{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: #25d366;
+        position: fixed;
+        bottom: 2rem;
+        right: 1rem;
+        z-index: 1;
+        animation: anime 2s linear infinite;
+    }
+    .maincontact{
+        width: 3rem;
+        height: 3rem;
+        padding: 2px; 
+        bottom: 2rem;
+        right: 1rem;
+    }
+    .mainwhatsap{
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 8px; 
+        bottom: 5rem;
+        right: 1rem;
+    }
+    .maincall{
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 8px; 
+        bottom: 8rem;
+        right: 1rem;
+    }
+}
+@media all and (max-width:400px){
+    .circle1, .circle2{
+        bottom: 1rem;
+        right: 1.5rem;
+    }
+    .maincontact{
+        width: 3rem;
+        height: 3rem;
+        padding: 2px; 
+        bottom: 1rem;
+        right: 1.5rem;
+    }
+    .mainwhatsap{
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 8px; 
+        bottom: 4.5rem;
+        right: 1.7rem;
+    }
+    .maincall{
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 8px; 
+        bottom: 7.5rem;
+        right: 1.7rem;
+    }
+}

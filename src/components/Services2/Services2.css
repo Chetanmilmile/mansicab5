@@ -1,0 +1,169 @@
+.serv2Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.serv2SliderTitle{
+    text-align: center;
+}
+.slide{
+    transform: scale(0.6);
+    transition: transform 300ms;
+    opacity: .5;
+}
+.activeSlide{
+    opacity: 1;
+    transform: scale(1.5);
+    transition: all 1s;
+}
+.serv2SliderTitle h1{
+    font-weight: 700;
+    font-family: serif;
+}
+.serv2SliderTitle h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #7142ff;
+    letter-spacing: 1.5px;
+}
+
+
+.outerServ2Slider{
+    width: 100%;
+}
+
+.mainServ2slider{
+    width: 91%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding-top: 3rem;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.mainServ2slider .slick-slide{
+    margin: 2rem 0;
+    padding: 0 2rem;
+}
+
+.serv2slides{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.serv2slides img{
+    width: 3rem;
+}
+
+.serv2slides h6{
+    font-weight: bolder;
+}
+.serv2slides p{
+    font-size: small;
+}
+.innerserv2slide{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.Serv2sliderControls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.serv2siderbtn{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media all and (max-width:769px){
+    .serv2Container{
+        margin-top: 1rem;
+    }
+    
+    .serv2SliderTitle h2{
+        font-size: 12px;
+        
+    }
+    .innerserv2slide{
+        gap: 0.2rem;
+        margin-bottom: 0;
+    }
+    .outerServ2Slider{
+        width: 100%;
+    }
+    
+    .slide{
+        transform: scale(0.9);
+        opacity: 0.6;
+    }
+    .activeSlide{
+        opacity: 1;
+        transform: scale(1.5);
+    }
+    .serv2slides img{
+        width: 2rem;
+    }
+    
+    .serv2slides h6{
+        font-weight: bolder;
+        font-size: 12px;
+    }
+    .serv2slides p{
+        font-size: 8px;
+    }
+    .mainServ2slider{
+        padding-top: 0;
+        
+    }
+    
+}
+@media all and (max-width:426px){
+    
+    .serv2SliderTitle h2{
+        font-size: 12px;
+        
+    }
+    .outerServ2Slider{
+        width: 100%;
+    }
+    
+    .slide{
+        transform: scale(0.5);
+        opacity: 0.2;
+    }
+    .activeSlide{
+        opacity: 1;
+        transform: scale(1.5);
+    }
+    .serv2slides img{
+        width: 2rem;
+    }
+    
+    .serv2slides h6{
+        font-weight: bolder;
+        font-size: 12px;
+    }
+    .serv2slides p{
+        font-size: 8px;
+    }
+    .mainServ2slider{
+        padding-top: 0;
+        width: 75%;
+    }
+    .mainServ2slider .slick-slide {
+        margin: 2rem 0;
+        padding: 0 0rem;
+    }
+}

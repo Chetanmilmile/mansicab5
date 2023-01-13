@@ -1,0 +1,274 @@
+/* .cabbooking {
+    margin: 5%;
+  } */
+  
+  /* ------------------------------------------------ */
+  
+  /* .cabbooking1 {
+    margin: 5%;
+  }
+  
+  .cabbooking12 {
+    position: relative;
+    padding: 2%;
+    margin: 0.5rem 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+  }
+ 
+  
+  .cabbooking11 {
+    padding: 0;
+    margin: 0;
+  }
+  .cabbooking111 {
+    background-color: #7142f8;
+    border-radius: 7px;
+    font-size: 110%;
+    font-weight: 400;
+    padding: 1.4%;
+    color: white;
+    margin: 1%;
+  }
+  .cabbooking121 {
+    justify-content: left;
+  }
+  .cabbooking121{
+    float: left;
+  }
+  .cabbooking121 img {
+    max-width: 13rem;
+    
+  }
+  .cabbooking122 h2 {
+    font-size: 100%;
+    font-weight: 600;
+    text-align: left;
+  }
+  .cabbooking122 p {
+    font-size: 90%;
+    color: gray;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  .cabbooking123 h3 {
+    font-size: 100%;
+    color: gray;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  .cabbooking123 h4 {
+    font-size: 100%;
+    text-align: left;
+  }
+  .cabbooking124 h3 {
+    font-size: 100%;
+    color: gray;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  .cabbooking124 h4 {
+    font-size: 100%;
+    text-align: left;
+  }
+  .cabbooking125 h3 {
+    font-size: 100%;
+    color: gray;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  .cabbooking125 h4 {
+    font-size: 100%;
+    text-align: left;
+  }
+  
+ 
+  */
+  
+  /* -------------------------------------------------------------------------------------------------- */
+  
+  /* .cabbooking3211 img {
+    max-width: 13rem;
+  }
+  .cabbooking3{
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      animation-direction: normal;
+      margin: 0 0.1%;
+      animation: alternate;
+    }
+
+    @keyframes spin {
+        0% {
+          transform:rotate(0deg);
+        }
+        100% {
+          transform:rotate(720deg);
+        }
+      }
+  .cabbooking31{
+      
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .cabbooking312{
+      font-size: 500%;
+      border: 1px solid black;
+      border-radius: 50%;
+      padding: 2%;
+      margin: 4%;
+  }
+  .cabbooking31 p{
+     font-size: 125%;
+     font-weight: 400;
+     padding: 0;
+  }
+  
+  .cabbooking321 {
+    padding: 4%;
+  }
+  .cabbooking322 {
+    padding: 2%;
+    background-color: #f8f8f8
+    ;
+  }
+  .cabbooking323 {
+    padding: 3%;
+    background-color: #f8f8f8;
+  
+  }
+  .cabbooking3212 h2 {
+    font-size: 130%;
+    margin: 0;
+  }
+  .cabbooking3212 p {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    color: rgb(153, 149, 149);
+  }
+  .cabbooking3221 h2 {
+    font-size: 110%;
+    color: rgb(122, 112, 112);
+    text-align: left;
+  }
+  .cabbooking3221 input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 110%;
+    font-weight: 500;
+    margin-top: 3%;
+    background-color: #f8f8f8;
+  }
+  
+  .cabbooking3223 h2 {
+    font-size: 110%;
+    color: rgb(122, 112, 112);
+    text-align: left;
+  }
+  .cabbooking3223 input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 110%;
+    font-weight: 500;
+    margin-top: 3%;
+    background-color: #f8f8f8;
+  
+  }
+  .cabbooking3231 h2 {
+    font-size: 110%;
+    color: rgb(122, 112, 112);
+    text-align: left;
+  }
+  .cabbooking3231 p {
+    font-size: 100%;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+  .cabbooking3232 button {
+    background-color: red;
+    padding: 2%;
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+    border-radius: 7px;
+    border: none;
+  }
+  
+  /* common */
+  .cabbooking3222 {
+    font-size: x-large;
+    margin-top: 29px;
+    float: left;
+  }
+  .cabbooking126cancel {
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: #7142f8;
+    font-size: medium;
+    font-weight: 700;
+    border: none;
+    margin-top: 1.5rem;
+  }
+  .ribbon {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  
+  .ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 4px 0;
+    background-color: red;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color: #fff;
+    font: 700 11px/1 'Lato', sans-serif;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-align: center;
+  }
+  .ribbon-top-left {
+    top: 0px;
+    left: 0px;
+  }
+  .ribbon-top-left span {
+    right: 9px;
+      top: 21px;
+    transform: rotate(-45deg);
+  }
+  
+.cabbooking3232 button{
+    padding: 3px;
+    margin:8px 0 5px 70px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border: none;
+
+}
+.cabbooking110 {
+  border: 2px solid rgb(206, 198, 198);
+  color: red;
+  font-size: large;
+  font-weight: 500;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 7px;
+  margin: 2px;
+}
+.cabcancelmain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20rem;
+}

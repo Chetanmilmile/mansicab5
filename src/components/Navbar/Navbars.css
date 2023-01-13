@@ -1,0 +1,593 @@
+.navbars{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+@media all and (max-width:450px){
+  .navbars{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .playstore p{
+    font-size: 8px !important;
+    font-weight: bold;
+  }
+
+  .login-btn{
+    font-weight: 400 !important;
+      padding: 0.3rem 0.5rem !important;
+      margin: 0 5px !important;   
+  }
+  .sidebarIcon{
+    font-size: 1.5rem !important;
+    margin: 0 0.8rem !important;
+    
+  }
+
+}
+
+
+.invalid-feedback{
+  color: rgb(255, 0, 0);
+  font-size: 15px;
+}
+.logo{
+  max-width: 8rem;
+
+}
+.logo:hover{
+  max-width: 9rem;
+
+}
+
+.mainNavbar{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.navbarIcons{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+
+.sidebarIcon{
+  font-size: 2rem;
+  margin: 0 2rem;
+  color: #7142f8;
+  cursor: pointer;
+}
+.offcanvas-backdrop.show {
+  opacity: 0;
+  width: 97vw;
+}
+.offcanvas.offcanvas-start{
+  width: 230px;
+  top: 125px;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  padding-right: 0;
+  border: 0;
+  color: black;
+}
+
+
+.sidebarTitle{
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  gap: 5px;
+  text-decoration: none;
+  }
+  .sidebarTitle h3{
+    font-size: 19px;
+  }
+.sidebarTitle a{
+  color: black;
+  text-decoration: none;
+  }
+
+.sidebarhomeicon{
+  font-size: 20px;
+}
+
+.sidebarContent{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.sidebarContent a{
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
+.sidebarDropbox{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.sidebardrop1, .sidebardrop2{
+  margin-top: -1rem;
+}
+.sidebarContent a{
+  font-size: 17px;
+}
+.sidebardrop1 a, .sidebardrop2 a{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.sidebarContent h5{
+  font-size: 17px;
+}
+.sidebar h5:hover{
+  font-weight: bolder;
+}
+.sidebar a:hover{
+  font-weight: bolder;
+}
+
+.sidebardrop1 div{
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  gap: 5px;
+}
+.sidebardrop2 div{
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  gap: 5px;
+}
+
+
+
+.loginbtn{
+  background-color: #7142ff;
+  border: 0;
+  width: 6rem;
+  height: 55px;
+  margin: 0 1rem;
+  padding: 0 20px;
+}
+.travelagent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.innertravelAgent{
+  border: 0.1px solid black;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+.travelagent p{
+  font-size: 13px;
+  font-weight: bold;
+}
+.playstore{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.innerplaystore{
+  border: 0.1px solid black;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.playstoreimg{
+  width: 1rem;
+}
+.playstore p{
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.login-btn{
+  background-color: #7142ff;
+  color: white;
+  border: none;
+  font-weight: 700;
+    padding: 0.7rem 1rem;
+    margin: 0 1.5rem;
+    
+}
+.innerlogin{
+  border: 0.1px solid black;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user{
+  font-size: 1.5rem;
+}
+
+@media all and (max-width:1401px){
+  .offcanvas.offcanvas-start{
+    top: 145px;
+  }
+}
+@media all and (max-width:1132px){
+  .offcanvas.offcanvas-start{
+    top: 145px;
+  }
+}
+@media all and (max-width:1025px){
+  .offcanvas.offcanvas-start{
+    top: 123px;
+  }
+}
+@media all and (max-width:974px){
+  .offcanvas.offcanvas-start{
+    top: 137px;
+  }
+}
+@media all and (max-width:769px){
+  .offcanvas.offcanvas-start{
+    top: 123px;
+  }
+}
+@media all and (max-width:670px){
+  .offcanvas.offcanvas-start{
+    top: 125px;
+  }
+}
+@media all and (max-width:530px){
+  .offcanvas.offcanvas-start{
+    top: 145px !important;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+  .sidebarTitle a{
+    color: white;
+    }
+    .sidebarContent a{
+      color: white;   
+    }
+}
+
+
+@media all and (max-width:441px){
+  .offcanvas.offcanvas-start{
+    top: 162px !important;
+  }
+}
+@media all and (max-width:341px){
+  .offcanvas.offcanvas-start{
+    top: 173px !important;
+  }
+}
+@media all and (max-width:321px){
+  .offcanvas.offcanvas-start{
+    top: 162px !important;
+  }
+}
+@media all and (max-width:309px){
+  .offcanvas.offcanvas-start{
+    top: 167px !important;
+  }
+}
+
+
+
+.modal-header
+ {
+     background-color: #eee;
+ }
+
+
+.login-logo{
+    width: 30%;
+}
+.login-btns-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.login-mobile-2{
+    width: 100%;
+    padding: 1em;
+    float: left;
+    cursor: pointer;
+  }
+  .login-email-2{
+    width: 100%;
+    cursor: pointer;
+    padding: 1em;
+}
+.login-body label{
+   font-size: 100%;
+   font-size: 1.1em;
+   margin:1em 4em 0.2em 3.8em;
+}
+.login-body input{
+    width: 70%;
+    height: 3em;
+    margin:0.2em 4em 0.5em 4em;
+    padding-left: 2em;
+}
+.create-new-account{
+    text-align: center;
+    margin:0.2em 4em 1em 4em;
+    color: #7142f8;
+    cursor: pointer;
+}
+.mail-passforgot{
+    text-align: right;
+    margin:0.2em 4em 0.2em 4em;
+    color: #7142f8;
+    cursor: pointer;
+}
+.modal-foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.modal-foot div{
+    background-color: black;
+    height: 2px;
+    width: 8em;
+}
+.login-body-btn-mobile{
+    width: 70%;
+    margin:0.9em 4em 2em 4em;
+    height: 3em;
+    background-color: #7142f8;
+}
+.login-body-btn-email{
+    width: 70%;
+    margin:0.1em 4em 2em 4em;
+    height: 3em;
+    background-color: #7142f8;
+}
+.modal-facebook{
+    background-color:  #3b5998;
+    font-size: 2.6em;
+    border-radius: 5px;
+    padding: 0.2em;
+    color: white;
+}
+.modal-twitter{
+    background-color: #00acee ;
+    
+    font-size: 2.6em;
+    border-radius: 5px;
+    padding: 0.2em;
+    color: white;
+}
+.modal-google{
+    background-color: #db4a39;
+    font-size: 2.6em;
+    border-radius: 5px;
+    padding: 0.2em;
+    color: white;
+}
+.otp-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.otp-body label{
+   font-size: 2rem;
+   font-weight: 600;
+   text-align: center;
+   margin: 0.7em 0 1em 0;
+   padding-left: 2em;
+}
+.otp-body input{
+    width: 70%;
+    height: 3em;
+    margin:0.2em 4em 0.2em 4em;
+    padding-left: 2em;
+}
+.otp-body button{
+    width: 40%;
+    height: 2em;
+    font-size: 1.8em;
+    font-weight: 500;
+    background-color: #41b554;
+    margin:1em 4em 0.5em 4em;
+}
+.otp-body h6{
+    
+    border-bottom: 1px solid black;
+}
+
+.get-otp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.get-otp label{
+  font-weight: 500;
+  font-size: x-large;
+}
+.get-otp input{
+  font-weight: 500;
+  font-size: large;
+  padding: 0.5rem;
+}
+.getOtpBtn{
+  background-color: #7142f8;
+  border: 0;
+}
+
+.reset-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.reset-body input{
+    width: 66%;
+    height: 3rem;
+    margin-left: 1em;
+    padding-left: 2em;
+}
+.reset-mail{
+    font-size: 1.2rem;
+    margin:1em 0em 0em 0em;
+}
+.reset-no{
+    font-size: 1.2rem;
+    margin:0em 0em 0.8em 0em;
+}
+.reset-otp{
+    font-size: 1.2rem;
+    margin:0.8em 0em 0.5em 0em;
+    
+}
+
+
+
+.reg-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.reg-title{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+}
+.reg-otp{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.reg-otp p{
+    color: #7142f8;
+    font-weight: 500;
+    cursor: pointer;
+}
+.reg-name{
+    margin: 0.2em 0;
+}
+.reg-mail{
+    margin: 0.2em 0;
+}
+.reg-pass{
+    margin: 0.2em 0;
+}
+.reg-cpass{
+    margin: 0.2em 0;
+}
+.reg-mob{
+    margin: 0.2em 0;
+}
+
+.reg-name input{
+    width: 300px;
+    padding-left: 2em;
+}
+.reg-mob input{
+  width: 300px;
+    
+    padding-left: 2em;
+}
+.reg-mail input{
+  width: 300px;
+  
+    
+    padding-left: 2em;
+}
+.reg-pass input{
+  width: 300px;
+
+    
+    padding-left: 2em;
+}
+.reg-cpass input{
+  width: 300px;
+
+    padding-left: 2em;
+}
+
+@media all and (max-width:350px){
+  .reg-name input{
+    width: 250px;
+}
+.reg-mob input{
+  width: 250px;
+}
+.reg-mail input{
+  width: 250px;
+  
+}
+.reg-pass input{
+  width: 250px;
+
+}
+.reg-cpass input{
+  width: 250px;
+
+}
+}
+.reg-body button{
+    width: 50%;
+    font-weight: 700;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    font-size: 19px;
+
+    
+}
+.reg-foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+.reg-foot div{
+    background-color: black;
+    height: 2px;
+    width: 8em;
+}
+
+.reg-otp input{
+    width: 5em;
+   
+}
+

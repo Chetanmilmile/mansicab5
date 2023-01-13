@@ -1,0 +1,407 @@
+.cabspage-main{
+  background-color: #EBF8F4;
+  padding: 0.5%;
+}
+
+.cabspage-2{
+margin:0.5% 10%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+}
+@media all and (max-width:1020px){
+  .cabspage-2{
+    flex-direction: column;
+    } 
+}
+.cabpagetitle{
+  text-align: left;
+  font-size: 130%;
+  font-weight: 700;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.cabpage-radio{
+  font-size: 1rem;
+  border-radius: 50%;
+}
+.cabspage-2 h3{
+  text-align: left;
+  font-weight: 600;
+  font-size: 160%;
+  }
+
+.cabspage-21 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cabspage-21 label{
+  font-size: 150%;
+}
+.cabspage-22 img{
+  width: 18%;
+  margin-left: 5%;
+}
+.cabspage-23 img{
+  width: 18%;
+  margin-left: 5%;
+
+}
+.cabspage-24 img{
+  width: 18%;
+  margin-left: 5%;
+}
+.cabspage-22 p{
+ font-weight: 700;
+ font-size: 120%;
+ margin: 0;
+}
+.cabspage-23 p{
+  font-weight: 700;
+  font-size: 120%;
+  margin: 0;
+}
+
+.cabspage-24 p{
+  font-weight: 700;
+  font-size: 120%;
+  margin: 0;
+}
+
+ 
+ .cabspage-22 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 30px;
+   background-color:white;
+   max-width: 20rem;
+ }
+ .cabspage-23 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color:white;
+  max-width: 20rem;
+
+}
+
+.cabspage-24 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  max-width: 20rem;
+  background-color:white;
+}
+
+
+/* ---------------------------------------------------------------------------------------------- */
+#cabpageShow{
+display: none;
+}
+.cabspage-1{
+  background-color: white;
+  margin:0.5% 10%;
+  
+}
+.cabspage-111{
+  border-left:  2px solid gray;
+  border-top:  2px solid gray;
+  border-bottom:  2px solid gray;
+  padding: 3%;   
+}
+.cabspage-112, .cabspage-122, .cabspage-132 {
+  padding: 5% 7% 0 7%;
+}
+.cabspage-111 h1{
+  font-size: 120%;
+  font-weight: bolder;
+  text-align: left; 
+}
+
+.cabspage-121{
+  border-top:  2px solid gray;
+  border-bottom:  2px solid gray; 
+  padding: 3%;
+}
+.cabspage-112 h3{
+  font-size: 115%;
+  text-align: left;
+  font-weight: 600;
+}
+.cabspage-112 p{
+  font-size: 100%;
+  text-align: left;
+  padding-top: 0;
+  font-weight: 500;
+  color: rgb(84, 82, 82);
+}
+.cabspage-121 h1{
+  font-size: 120%;
+  font-weight: bolder;
+  text-align: left;
+}
+.cabspage-122 h3{
+  font-size: 115%;
+  text-align: left;
+  font-weight: 600;
+}
+.cabspage-122 p{
+  font-size: 100%;
+  text-align: left;
+  padding-top: 0;
+  font-weight: 500;
+  color: rgb(84, 82, 82);
+}
+.cabspage-131{
+  border-right:  2px solid gray;
+  border-top:  2px solid gray;
+  border-bottom:  2px solid gray;
+  padding: 3%;
+  
+}
+.cabspage-131 h1{
+  font-size: 120%;
+  font-weight: bolder; 
+  text-align: left;
+}
+.cabspage-132 h3{
+  font-size: 170%;
+  text-align: left;
+  font-weight: 600;
+}
+.cabspage-132 del{
+  font-size: 60%;    
+}
+.cabspage-132 p{
+  font-size: 100%;
+  text-align: left;
+  padding: 0;
+  font-weight: 500;
+  color: rgb(84, 82, 82);
+  
+}
+
+.cabspage-133 button{
+  background-color: #7142f8;
+  color: white; 
+  font-weight:500 ;
+  width: 5rem;
+  border:none ;
+  border-radius: 5px;
+}
+@media all and (max-width:1103px) {
+  .cabspage-111 {padding-bottom: 2rem;}
+  .cabspage-131 {padding-bottom: 2rem;}
+}
+
+@media all and (max-width:768px) {
+  .cabspage-111 {border-right: 2px solid gray; padding-bottom: 3%;}
+  .cabspage-131 {border-left: 2px solid gray;  padding-bottom: 3%;}
+  .cabspage-121 {border-left: 2px solid gray; border-right: 2px solid gray;}
+}
+
+
+/* ---------------------------------------------------------------------------------------------- */
+
+.cabpackage{
+margin: 2% 15%;
+padding: 2% 1%;
+}
+.carpakage0{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+
+}
+.carpakage01 {
+margin-right: 3%;
+display: block;
+}
+.carpakage01 h5{
+font-weight: 700;
+text-align: left;
+}
+.carpakage01 p{
+font-size: 100%;
+padding: 0;
+margin: 0;
+text-align: left;
+color: rgb(50, 48, 48);
+}
+.carpakage021{
+display: flex;
+align-items: center;
+justify-content: center;
+gap:4rem;
+}
+.carpakage022{
+font-size: 100%;
+border-radius: 10px;
+background-color: white;
+font-weight: 700;
+word-spacing: 0;
+cursor:pointer;
+display: block;
+padding: 2% 8px;
+border:0;
+margin-bottom: 5px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cabpagedropdown{
+display: none;
+}
+
+#dropdown-menu-align-end{
+  background-color: #7142f8;
+  border: 0;
+}
+.dropdown-item:hover{
+  background-color: #7142f8;
+}
+
+@media all and (max-width:570px){
+.carpakage021{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column; 
+}
+.cabpagedropdown{
+display: block;
+}
+.carpakage022{
+display: none;
+}
+.carpakage01 {
+display: none;
+}
+}
+
+.carpakage022:hover{
+background-color: #7142f8;
+}
+
+
+.cabpackage1{
+border: 1px solid black;
+}
+.cabpackage10{
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+width: 100%;
+}
+.cabpackage1{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+gap: 6rem;
+padding: 7% 0;
+}
+.cabpackage2{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 100%;
+gap: 2rem;
+}
+
+.cabpackage1 h3{
+font-size: 100%;
+font-weight: 700;
+}
+.cabpackage2 h3{
+font-size: 100%;
+margin-top: 2%;
+font-weight: 600;
+}
+.cabpackage2 img{
+width: 60%; 
+}
+.cabpackage2 img{
+width: 60%; 
+}
+.cabpackage2 button{
+width: 100%;
+border-radius: 20px;
+font-size:100%;
+font-weight: 700;
+color: white;
+background-color: #7142f8;
+padding: 4%;
+border: none;
+}
+.cabpackage2 p{
+font-size: 100%; 
+}
+.cabpackage2 span{
+margin-left: 5px; 
+margin-right: 5px; 
+}
+.cabpackage2 h4{ 
+font-weight: 500;
+text-align: left;
+}
+.cabpackage2 h6{ 
+font-weight: 500;
+color: rgb(98, 92, 92);
+text-align: left;
+}
+.canpackagespan{
+color: rgb(139, 129, 129);
+font-size: 90%;
+font-weight: 500;
+}
+
+
+@media all and (max-width:955px){
+.cabpackage10{
+  flex-direction: column;
+  margin: 2%;
+}
+.cabpackage2{
+  flex-direction: row;
+  gap: 0;
+}
+.cabpackage1{
+  flex-direction: row;
+  gap: 10%;
+}
+.cabpackage{
+margin:0;
+padding: 2% 1%;
+}
+.cabpackage2 button{
+font-size:40%;
+width: 4rem;
+font-weight: 500;
+}
+.cabpackage2 p{
+font-size: 80%; 
+}
+.cabpackage2 h4{ 
+font-size: 90%;
+font-weight: 500;
+text-align: left;
+}
+.cabpackage2 h6{ 
+font-weight: 500;
+font-size: 80%;
+color: rgb(98, 92, 92);
+text-align: left;
+}
+.cabpackage2222{
+width: 10rem;
+}
+
+}

@@ -1,0 +1,890 @@
+.star{
+  fill: #54e8c3;
+  font-size: 1rem;
+}
+.star1{
+  fill: #e3dbfd;
+  font-size: 1rem;
+}
+.transfermain{
+  position: sticky !important;
+  top: 10px;
+  right: 0px;
+}
+.transfer0{
+    background-color: #EBF8F4;
+    padding: 5% 4%;
+}
+.transfer2{
+    margin: 0% 1% 2% 1%;
+    padding: 5% 2% 2% 2%;
+    background-color: white;
+    border-radius: 0 0 7px 7px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.transfer5{
+  background-color:#F8F8F8;
+  margin: 0% 1% 0% 1%;
+  padding: 0% 1% 0% 1%;
+  border-radius: 7px 7px 0 0;
+  
+}
+.transfer5 h3{
+    font-size: 120%; 
+    display: flex;
+    color: rgb(123, 117, 117);
+    align-items: center;
+    text-align: left;
+    font-weight: 600;
+    margin: 2% 0 2% 4%;
+}
+.transfer5 span{
+    font-size: 200%;
+    margin-right:3%;
+    color: black;
+  
+}
+
+.transfer-price p{
+    font-size:medium;
+    text-align: left;
+    padding-bottom:0;
+    font-weight:600 ;
+    margin-left: 2rem;
+}
+
+.transfer-price input{
+    margin-right: 10%;
+}
+.transfer2 button{
+    width: 153px;
+    height: 35px;
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-top: 5%;
+    background-color: #7142f8;
+}
+.transfer-viewd1{
+    color: #7142f8;
+}
+
+.transferAc{
+  display: flex;
+  gap: 1.5rem;
+}
+.transferAc div{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 15px;
+  color: #7142f8;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+.transfer-sel1{
+    background-color: white;
+    border-radius: 10px 10px 10px 10px ;
+    padding: 1%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.transfer-details{
+    padding: 1%;
+}
+
+.transfer-details-img img{
+    width: 10rem;
+}
+.transfer-details3 h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.transfer-details4 p{
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 0;
+    margin-left: 1rem;
+    margin-bottom: 0;
+}
+.transfer-details4 span{
+    font-size: 85%;
+    font-weight:700;
+    padding-left: 0;
+    padding-top: 0.5rem;
+    margin-left: 1rem;
+
+}
+.transfer-details4 input{
+    border: none;
+    margin-left: 40px;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+    width: 70%;
+    padding-left: 0;
+    color: black;
+    font-size: 15px;
+}
+.transfer-details4-arow{
+    font-size: 150%;
+    margin-top: 2%;
+    font-weight: 700;
+    color: #7142f8;
+}
+
+.transfer-viewd{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.transfer-viewd button{
+    border: none;
+    color: #7142f8;
+    font-size: 150%;
+    font-size: 75%;
+    font-weight: 700;
+    background-color: white;
+}
+.transfer-viewd span{
+  font-size: 130%;
+  
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+
+.transfer-inclusion0{
+    display: flex;
+    gap: 4rem;
+    width: 100%;
+}
+
+.transfer-inclusion h5{
+  font-size: 16px;
+}
+.transfer-exclusion h5{
+  font-size: 16px;
+}
+.transfer-inclusion-mark{
+  font-size: 20px;
+  color: green;
+  margin-right: 0.5rem;
+}
+.transfer-exclusion-mark{
+  font-size: 20px;
+  color: red;
+  margin-right: 0.5rem;
+}
+.inclusion-data{
+  font-size: 12px;
+  margin-left: 28px;
+}
+.exclusion-data{
+  font-size: 12px;
+  margin-left: 28px;
+}
+
+
+/*----------------------------#---------------------#------------$-------------------------%----------------*/
+
+
+.transferSpec{
+  background-color:white;
+  margin: 1rem;
+}
+.transferSpec h5{
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.transferSpeccol1 p{
+  font-size: small;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  margin-left: 1rem;
+}
+.transferSpeccol1 span{
+  color: #7142f8;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.transfer-details-data{
+  display: flex;
+  flex-direction: column;
+}
+.transfer-details-data div{
+  display: flex;
+}
+.transfer-details-data-time{
+  display: flex;
+  flex-direction: column;
+}
+
+/* ----------------------------#---------------------#------------$-------------------------%---------------- */
+
+.transfer-cancellation-title p{
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 0;
+  color: black;
+}
+
+.transfer-cancellation-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: #f8f8f8;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius:  7px 7px 0 0;
+}
+.transfer-cancellation-title-icon{
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 0.3%;
+  font-size: 150%;
+  
+  cursor: pointer;
+}
+.transfer-cancellation-title0{
+  padding: 1% 0;
+    margin-top: 1.5%;
+    
+}
+.cabDetailsinner{
+  background-color: white;
+  box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+  padding: 1rem;
+  border-radius: 0 0 7px 7px;
+}
+.cabDetailsinnerTitle h5{
+  font-size: 15px;
+}
+.cabDetailsinnerdiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.cabDetailsinnerdiv img{
+  width: 12rem;
+  height: 8rem;
+  border-radius: 10px;
+}
+
+@media all and (max-width:1025px){
+  .cabDetailsinnerdiv img{
+    width: 10rem;
+    height: 8rem;
+    border-radius: 10px;
+  }
+  
+}
+@media all and (max-width:768px){
+  .cabDetailsinnerdiv{
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+
+.transfer-travellar{
+  background-color: white;
+  border-radius:0 0 7px 7px;
+  padding: 10px 10px 0 3rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.transfer-travellar h5{
+ font-size: 16px;
+ margin-bottom: 0;
+}
+.transfer-travellar .row{
+    margin: 1rem 0;
+}
+.transfer-travellar-title {
+  background-color: #F8F8F8;
+  border-radius: 7px 7px 0 0;
+  margin-top: 1rem;
+  padding-top: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.transfer-travellar-title h3{
+  font-size: 140%;
+  color: black;
+  font-weight: 600;
+  text-align: left;
+  margin: 0 0 2% 0;
+    
+}
+
+.inputBox{
+  position: relative;
+  width: 100%;
+}
+.inputBoxGender{
+  margin-top: 1rem;
+}
+.inputBox input{
+  width: 100%;
+  padding: 6px;
+  border: 1px solid rgba(0, 0, 0. 0.4);
+  border-radius: 5px;
+  outline: none;
+  color: black;
+  font-size: 1em;
+  transition: 1s;
+  margin: 1rem 0;
+}
+.inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 25px 10px;
+  pointer-events: none;
+  font-size: 1em;
+  font-weight: 500;
+  color: rgba(0, 0, 0. 0.6);
+}
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span{
+  color: #7142f8;
+  transform: translateX(10px) translateY(10px);
+  font-size: 0.65em;
+  font-weight: 600;
+  padding: 0 10px;
+  background: white;
+  border-left: 1px solid #7142f8;
+  border-right: 1px solid #7142f8;
+  letter-spacing: 0.2em;
+}
+
+.inputBox input:valid,
+.inputBox input:focus{
+  border: 2px solid #7142f8;
+}
+
+.radioLabel{
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+  margin-right: 10px;
+  position: relative;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.radioLabel input[type='radio']{
+  display: none;
+}
+
+.radioLabel span{
+  height: 15px;
+  width: 16px;
+  border-radius: 50%;
+  border: 3px solid #7142f8;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 3px
+}
+
+.radioLabel span:after{
+  content: "";
+  height: 5px;
+  width: 6px;
+  background: #7142f8;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%) scale(0);
+  border-radius: 50%;
+  transition: 300ms ease-in-out 0s;
+}
+
+.radioLabel input[type='radio']:checked ~ span:after{
+  transform: translate(-50%,-50%) scale(1);
+}
+
+ 
+.transfer-travellar-terms div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}  
+.transfer-travellar-terms span{
+  color: #7142f8;
+  font-weight: 600;
+}  
+  /* ------------------------------------*------------------------------------- */
+  .lowerPayemnt{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    width: 100%;
+}
+
+.mainInnerpayment{
+    background-color: #f2f7ff;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.mainInnerpayment p{
+    margin-bottom: 0;
+    color: #636161;
+    font-size: 20px;
+    font-weight: 600;
+}
+.mainInnerpayment span{
+    font-size: 30px;
+    color: #636161;
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+.lowerInnerpayment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 2rem;
+}
+.lowerInnerpayment input{
+    margin-right: 1rem;
+}
+.lowerInnerpayment label{
+    font-weight: 600;
+}
+.lowerInnerpayment p{
+  font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.lowerInnerpayment h2{
+  font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+.lowerInnerpayment h5{
+  font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+
+.pricehr{
+  width: 90%;
+  align-self: center;
+  margin-top: 0;
+  opacity: 0.8;
+}
+
+.lowerPayemnt button{
+  align-self: center;
+  width: 200px;
+  border: 0;
+  background-color: #7142f8;
+  margin: 1rem 0;
+  padding: 5px 0;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+}
+
+
+  .confirm-booking-title{
+    font-size: 150%;
+  }
+  .confirm-booking-modal-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #contained-modal-title-vcenter{
+    text-align: center;
+  }
+  .confirm-booking-modal-body button{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    font-size: 110%;
+    padding: 1% 5%;
+    
+    
+  }
+  .confirm-booking-body1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .confirm-booking-body1 p{
+    color: gray;
+    font-size: 95%;
+    padding: 0;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+}
+.confirm-booking-body1 span{
+  font-size: 85%;
+  font-weight: 600;
+}
+.confirm-booking-body1 input{
+  border: none;
+  border-bottom: 2px solid black;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+}
+.confirm-booking-arrow{
+  font-size: 150%;
+  margin-top: 2%;
+}
+.confirm-booking-body2 p{
+  color: gray;
+  font-size: 95%;
+  margin-bottom: 0;
+  font-weight: 600;  
+  text-align: center;
+}
+.confirm-booking-body2 span{
+  border: none;
+  border-bottom: 2px solid black;
+  font-weight: 600;
+  font-size: 90%;
+  text-align: center;
+}
+.confirm-booking-body2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4% 0 1% 0;
+}
+.transfer-price-total {
+  padding: 0 3rem;
+}
+.transfer-price-total p{
+  font-size: 20px;
+}
+.confirm-booking-body3{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.confirm-booking-body3Outer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2px;
+  margin: 1rem 0;
+  margin-left: 3rem;
+}
+.confirm-booking-body3Outer label{
+  font-size: 15px;
+  font-weight: 600;
+}
+.confirm-booking-body3 p{
+  color: #7142f8;
+  font-size: 15px;
+  margin-bottom: 0; 
+  font-weight: 600; 
+}
+.confirm-booking-body3 input{
+  border: 2px dashed gray;
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+}
+.trlocationdrop{
+  color: red;
+  font-size: large;
+}
+.trlocationpick{
+  color: green;
+  font-size: large;
+
+}
+
+@media all and (max-width:1025px){
+  .lowerInnerpayment input{
+    margin-right: 5px;
+  }
+  .lowerInnerpayment label{
+    font-size: 15px;
+  }
+  .lowerInnerpayment {
+    margin: 0.5rem 1rem;
+}
+.confirm-booking-body3Outer {
+    margin-left: 1rem;
+}
+.confirm-booking-body3 input {
+    width: 150px; 
+}
+.transfer-travellar {
+    padding: 10px;
+}
+.transfer-travellar-terms div{
+  align-items: flex-start;
+  gap: 10px;
+} 
+.transfer-travellar-terms input{
+  margin-top: 5px;
+} 
+.transfer-details4 input {
+  margin-left: 30px;
+}
+}
+
+@media all and (max-width:769px){
+  .transfer-inclusion0{
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .transfer-inclusion h5{
+    font-size: 14px;
+  }
+  .transfer-exclusion h5{
+    font-size: 14px;
+  }
+  .transfer-details3 h3{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .transferAc div{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .transfer-details4-arow {
+    display: none;
+  }
+  .mainInnerpayment {
+    padding: 0px 33px;
+  }
+  .mainInnerpayment p {
+    font-size: 16px;
+  }
+  .mainInnerpayment span {
+    font-size: 22px;
+    margin-right: 0.5rem;
+  }
+  .lowerInnerpayment label {
+    font-size: 13px;
+  }
+  .lowerInnerpayment p {
+    font-size: 14px;
+  }
+  .lowerInnerpayment {
+    margin: 0.5rem 1px;
+  }
+  .confirm-booking-body3Outer label {
+    font-size: 13px;
+  }
+  .confirm-booking-body3 input{
+    width: 135px;
+  }
+  .confirm-booking-body3 {
+    gap: 0.5rem;
+  }
+  .confirm-booking-body3 p {
+    font-size: 12px;
+  }
+  .lowerInnerpayment h2 {
+    font-size: 22px;
+  }
+  .lowerInnerpayment h5 {
+    font-size: 22px;
+    margin-right: 1rem;
+  }
+  .pricehr {
+    margin: 0;
+  }
+  .lowerPayemnt button {
+    width: 142px;
+    margin: 0.5rem 0;
+    padding: 4px 0;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  .trlocationdrop{
+    color: red;
+    font-size: large;
+  }
+  .trlocationpick{
+    color: green;
+    font-size: large;
+  
+  }
+  .transfer-details-data-time{
+    width: 210px;
+  }
+  .transfer-details4 input {
+    margin-left: 10px;
+    width: 90px;
+}
+}
+
+@media all and (max-width:300px){
+  .transferAc{
+    display: flex;
+    gap: 1rem;
+  }
+  .transferAc div{
+    font-size: 13px;
+  }
+}
+
+
+.carImages h6{
+  font-size: small;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.cabmodulehead{
+ padding: 1px 20px 1px 20px;
+ font-size: 10px;
+ 
+}
+.cabmoduleheadtitle{
+  font-size: 20px;
+  color:black;
+
+}
+
+@media all and (max-width:1025px){
+.transfer-details-img img{
+  width: 8rem;
+}
+
+}
+@media all and (max-width:769px){
+  .carImages img{
+    width: 140px;
+  }
+  .inputBoxGender{
+  margin-top: 0.5rem;
+}
+.inputBox input{
+  margin: 0.5rem 0;
+}
+.inputBox span{
+  padding: 16px 10px;
+}
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span{
+  transform: translateX(10px) translateY(0px);
+  padding: 0 10px;
+}
+.transfer-details-img img{
+  width: 6rem;
+}
+.transfer-details4 p {
+  margin: 0;
+}
+}
+@media all and (max-width:426px){
+  .carImages img{
+    width: 110px;
+  }
+  .transfer-travellar-terms div{
+  font-size: 14px;
+  }
+  .lowerPayemnt {
+    margin: 0;
+  }
+  .transfermain {
+    margin-top: 1rem;
+  }
+  .mainInnerpayment p {
+    font-size: 18px;
+  }
+  .lowerInnerpayment {
+    margin: 0.5rem 20px;
+  }
+  .lowerInnerpayment label {
+    font-size: 16px;
+  }
+  .lowerInnerpayment p {
+    font-size: 16px;
+  }
+  .confirm-booking-body3Outer label {
+    font-size: 15px;
+  }
+  .confirm-booking-body3 input {
+    width: 190px;
+  }
+  .confirm-booking-body3 {
+    gap: 1rem;
+  }
+  .confirm-booking-body3 p {
+    font-size: 16px;
+  }
+  .confirm-booking-body3Outer {
+    margin: 0.5rem 0;
+    margin-left: 2rem;
+  }
+  .lowerPayemnt button {
+    width: 155px;
+    margin: 16px 0;
+    margin-top: 0;
+    font-size: 16px;
+  }
+  .transfer-details4 input {
+    margin-left: 18px;
+    width: 125px;
+  }
+  .transfer-details-data{
+    margin-top: 10px;
+  }
+  .transfer-details-data-time{
+    margin-top: 10px;
+  }
+  .transfer-details-data-time p{
+    margin-left: 19px;
+  }
+  .transfer-details-data-time span{
+    margin-left: 19px;
+  }
+}
+@media all and (max-width:376px){
+  .carImages img{
+    width: 100px;
+  }
+}
+@media all and (max-width:321px){
+  .carImages img{
+    width: 120px;
+  }
+  .confirm-booking-body3 input {
+    width: 150px;
+}
+.confirm-booking-body3 p {
+  font-size: 13px;
+}
+}

@@ -1,0 +1,58 @@
+.cabserchtop{
+    background: url('../../Assets/offersbg.jpg');
+    background-size: cover;
+    background-position: 100%;
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .cabsbannermain{
+    width: 70%;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 10rem;
+    
+}
+
+.modifybtn{
+    
+    width: 15rem;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #7142ff;
+    border: 0;
+    bottom: 35px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 0.2rem 0;
+  }
+
+  @media all and (max-width:768px){
+    .modifybtn{
+        bottom: 34px;
+       
+  }
+}
+  @media all and (max-width:400px){
+    .modifybtn{
+      width: 50%;
+      font-size: 12px;
+      bottom: 38px;
+  }
+}
+
+.css-13cymwt-control{   
+  font-size: 15px;
+}

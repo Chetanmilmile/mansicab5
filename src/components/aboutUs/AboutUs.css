@@ -1,0 +1,164 @@
+.aboutUsContainer{
+    background-color: #ccf2ee;
+}
+
+.aboutUsHeader{
+    background: url('../../Assets/image\ 4.jpg');
+    background-size:contain;
+    background-position: 20%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.aboutUsMiddle{
+    padding: 4rem 0;
+    
+}
+
+.aboutusAirportimg{
+    width: 90%;
+    /* height: 50%; */
+}
+.aboutuscarimg{
+    width: 100%;
+}
+
+.aboutUsMiddleCol2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    gap: 2rem;
+}
+
+.mainaboutUsMiddle{
+    width: 100%;
+}
+
+
+
+.aboutUsMiddlediv{
+    background-color: white;
+    padding: 2% 4% 6% 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.aboutUsMiddle2{
+    width: 100%;
+    background: url('../../Assets/offersbg.jpg');
+    background-size: cover;
+    background-position: 100%;
+    padding: 5% 12%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.aboutUsMiddle2 p{
+    font-weight: bold;
+    color: white;
+}
+
+/*------------------------aboutslider-----------*/
+
+.aboutSliderContainer{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.aboutSliderTitle h3{
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    margin-bottom: 3rem;
+}
+
+.mainaboutslider .slick-slide{
+    padding: 0 1rem;
+}
+
+.outeraboutSlider{
+    width: 80%;
+}
+
+@media only screen and (max-width:1024px){
+    .outeraboutSlider{
+        width: 90%;
+    }
+}
+
+.mainaboutslider{
+    width: 90%;
+    
+}
+
+.aboutsliderControls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutslides{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+   
+}
+
+.inneraboutslide{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.aboutsiderbtn{
+    font-size: 2rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+.aboutcontrolbtn1{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #7142ff;
+    
+}
+.aboutcontrolbtn2{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #7142ff;
+}
+
+.aboutimg1{
+    max-width: 8rem;
+    margin-top: 1%;
+    margin-bottom: 1rem;
+}
+
+.aboutimg2{
+    max-width: 10rem;
+    margin-bottom: 1rem;
+}
+.aboutimg3{
+    max-width: 5.5rem;
+    margin-top: 2%;
+    margin-bottom: 1rem;
+
+}
+.aboutimg4{
+    max-width: 5.5rem;
+    margin-top: 2%;
+    margin-bottom: 1rem;
+
+}

@@ -1,0 +1,127 @@
+.placeSliderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.placeSliderTitle{
+    text-align: center;
+}
+
+
+.placeSliderTitle h1{   
+    font-weight: 700;
+    font-family: serif;
+}
+
+.outerplaceSlider{
+    width: 100%;
+}
+
+
+.mainplaceslider{
+    width: 100%;
+    text-align: center;
+}
+
+
+.mainplaceslider div .slick-slide{
+    padding: 0 40px;
+}
+
+
+.slides{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.slides img{
+    width: 350px;
+    height: 260px;
+    border-radius: 5px;
+    
+}
+.innerslide{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+
+
+
+@media only screen and (max-width:1025px){
+    .mainplaceslider div .slick-slide{
+        padding: 0 20px;
+    }
+    .slides img{
+        width: 270px;
+        height: 200px; 
+    }
+}
+
+@media only screen and (max-width:769px){
+
+    .slides img{
+        width: 196px;
+        height: 200px;
+    }
+
+    .mainplaceslider div .slick-slide{
+        padding: 0 10px;
+    }
+}
+
+@media all and (max-width:426px){
+    .outerplaceSlider{
+        width: 90%;
+    }
+    .mainplaceslider div .slick-slide{
+        padding: 0 10px;
+    }
+    .slides img{
+        width: 100px;
+        height: 100px; 
+    }
+}
+@media all and (max-width:376px){
+    .mainplaceslider div .slick-slide{
+        padding: 0 10px;
+    }
+    .slides img{
+        width: 138px;
+        height: 140px; 
+    }
+    .mainplaceslider h4{
+        font-size: 15px;
+    }
+}
+@media all and (max-width:321px){
+    .outerplaceSlider{
+        width: 100%;
+    }
+    .mainplaceslider div .slick-slide{
+        padding: 0 60px;
+    }
+    .slides img{
+        width: 136px;
+        height: 150px; 
+    }
+}
+
+.slick-prev:before , .slick-next::before{
+    
+    display: none;
+    
+}

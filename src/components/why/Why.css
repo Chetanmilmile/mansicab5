@@ -1,0 +1,113 @@
+.whySliderContainer{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.whySliderTitle h1{
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-family: serif;
+}
+
+
+.mainwhyslider .slick-slide{
+    padding: 0 1rem;
+}
+
+.outerwhySlider{
+    width: 80%;
+}
+
+@media all and(max-width:1024px){
+    .outerwhySlider{
+        width: 90%;
+    }
+}
+
+
+.mainwhyslider{
+    width: 90%;
+    
+}
+
+.whysliderControls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyslides{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+   
+}
+
+.innerwhyslide{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.innerwhyslide p{
+   font-size: small;
+}
+
+.whysiderbtn{
+    font-size: 2rem;
+    color: black;
+}
+
+.whycontrolbtn1{
+    cursor: pointer;
+    
+}
+.whycontrolbtn2{
+    cursor: pointer;
+}
+
+.whyimg1{
+    max-width: 8rem;
+    margin-top: 1%;
+    margin-bottom: 1rem;
+}
+
+.whyimg2{
+    max-width: 10rem;
+    margin-bottom: 1rem;
+}
+.whyimg3{
+    max-width: 5.5rem;
+    margin-top: 2%;
+    margin-bottom: 1rem;
+
+}
+.whyimg4{
+    max-width: 5.5rem;
+    margin-top: 2%;
+    margin-bottom: 1rem;
+
+}
+
+@media all and (max-width:769px){
+    .whySliderTitle h3{
+        font-weight: bolder;  
+        margin-bottom: 1rem;
+    }
+    .whySliderContainer{
+        margin-top: 1rem !important;
+        padding: 0;
+    }
+}
+@media all and (max-width:426px){
+    .whySliderContainer{
+        margin-top: 1rem !important;
+        padding: 0 !important;
+    }
+}

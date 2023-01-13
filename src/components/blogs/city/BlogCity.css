@@ -1,0 +1,94 @@
+.cityblogContainer{
+    background-color: #ecfffd;
+    padding: 1rem 2rem 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* .blogSearch{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+    background-color: white;
+    max-width: 50rem;
+}
+.blogserchimg{
+    display: flex;
+}
+.blogserchimg img{
+    max-width: 80px;
+}
+
+@media all and (max-width:768px){
+    .blogserchimg img{
+        width: 10%;
+    }
+}
+.blogserchimg p{
+    font-size: 90%;
+}
+
+.placeserchbar{
+    width: 12rem;
+} */
+
+.blogcitydata{
+    margin: 2%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.blogcitydata1 h3{
+    font-weight: bold;
+}
+.blogcitydata1 img{
+    width: 100%;
+}
+.blogcitydata2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 3%;
+}
+.blogcitydata2 img{
+    width: 100%;
+}
+.blogcitydata2 h6{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.blogcitydata2 h5{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.cityblogrow{
+    display: flex;
+}
+
+@media all and (max-width:992px){
+    .cityblogrow{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media all and (max-width:700px){
+    .blogcitydata2 h6{
+        font-size: 15px;
+    }
+    .blogcitydata2 h5{
+       font-size: 20px; 
+    }
+    
+    .cityblogrow p{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,153 @@
+.contactusContainer{
+    background-color: #cefdef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactusHeader{
+    font-weight: 700;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactusHeader h1{
+    margin-bottom: 0;
+}
+
+.contactUsForm{
+    width: 100%;
+    padding: 5% 0;
+    border: 1px solid black;
+    border-top: 2px solid black;
+    background-color: white;
+}
+
+.contactUsFormLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactUsFormRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maincontactform{
+    width: 70%;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 1rem;
+}
+
+
+.maincontactformHeader{
+    width: 100%;
+    text-align: left;
+    
+}
+.maincontactformHeader h4{
+    padding: 0;
+    
+}
+
+.maincontactformMiddle{
+  
+   width: 100%;
+   
+}
+.maincontactformMiddle input{
+   border: 1px solid gray;
+   border-radius: 2px;
+   padding-left: 0.5rem;
+   height: 3rem;
+   
+   width: 100%;
+   
+}
+
+.contactustextarea{
+    width: 100%;
+}
+
+.maincontactformbottom{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.contactustextarea textarea{
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding-left: 0.5rem;
+    height: 8rem;
+    width: 100%;
+}
+.maincontactformbottom button{
+    max-width: 8rem;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    padding: 0.3rem 1rem;
+}
+
+.contactUsFormLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 5%;
+    padding-top: 2%;
+    gap: 1rem;
+}
+
+.contactUsMail p{
+    margin-bottom: 0;
+}
+.contactUsMail2 a{
+    text-decoration: none;
+    color: #7142f8 !important;
+}
+.contactUsPhone2 a{
+    text-decoration: none;
+    color: black !important;
+}
+
+.contactusmailicon{
+    fill: red;
+    margin-right: 1rem;
+}
+
+.contactuscallicon{
+    fill: red;
+    color: red;
+    margin-right: 1rem;
+}
+
+.contactuslocationicon{
+    color: red;
+    margin-right: 1rem;    
+}
+
+.contactUsMail2{
+    padding-left: 2rem;
+}
+.contactUsPhone2{
+    padding-left: 2rem;
+}
+.contactUsAddress2{
+    padding-left: 2rem;
+}
+
+.contactUsgmap{
+    width: 100%;
+}

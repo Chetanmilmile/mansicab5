@@ -1,0 +1,100 @@
+.banner2 {
+  background-image: url("../../Assets/tajmahal.jpg");
+  background-size: cover;
+  background-position: 100% center;
+  margin: 4rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  height: 10rem;
+}
+
+.banner2-card {
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 120px;
+  margin: 3%;
+  padding: 2%;
+  text-align: center;
+  height: 85px;
+}
+
+.banner2-card h6 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.banner2-card h5 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.banner2-cardMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner2-second {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  padding: 2rem;
+  height: 10rem;
+}
+
+.banner2-text {
+  text-align: left;
+  color: white;
+  border-left: 5px solid yellow;
+  padding: 0 1rem;
+  border-radius: 3px;
+  font-size: 20px;
+}
+
+.banner2-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner2-left div {
+  width: 100%;
+}
+
+@media all and (max-width: 700px) {
+  .banner2-second {
+    padding: 1rem;
+    height: 12rem;
+  }
+  .banner2-text {
+    font-size: 15px;
+  }
+  .banner2-card h6 {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .banner2-card h5 {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .banner2 {
+    margin: 0;
+    margin-top: 2rem;
+    height: 12rem;
+  }
+}
+@media all and (max-width: 321px) {
+  .banner2-second {
+    padding: 1rem;
+    height: 15rem;
+  }
+  .banner2 {
+    margin: 0;
+    margin-top: 2rem;
+    height: 15rem;
+  }
+}

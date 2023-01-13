@@ -1,0 +1,465 @@
+
+
+.hero__form {
+     /* background: url('../../../public/main\ bg.jpg'); */
+    background-position: 100%; 
+    animation-name: bgimage;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+    background-size: cover;
+    padding: 4rem 0;
+    padding-top: 10rem;
+  }
+
+  @keyframes bgimage{
+    0%{
+      background-image: url('../../../public/main\ bg.jpg');
+      background-position: 100%;
+    }
+    25%{
+      background-image: url('../../../public/conuter\ bg.jpg');
+      background-position: 100%;
+
+    }
+    50%{
+      background-image: url('../../../public/image\ 4.jpg');
+      background-position: 100%;
+
+    }
+    75%{
+      background-image: url('../../../public/main\ bg.jpg');
+      background-position: 100%;
+
+    }
+    100%, 0%{
+      background-image: url('../../../public/conuter\ bg.jpg');
+      background-position: 100%;
+
+    }
+  }
+
+.bannermain{
+    width: 70%;
+    background-color: #ffffff;
+    padding: 0 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 8rem;
+    padding-bottom: 0;
+    font-weight: 600;
+}
+.searchbtn{
+    
+    width: 15rem;
+    position: absolute;
+    border-radius: 20px;
+    background-color: #7142ff;
+    border: 0;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 0.2rem 0;
+}
+
+.searchbtn:hover{
+    font-size: 17px;
+    color: white;
+}
+
+@media all and (max-width:400px){
+    .searchbtn{
+        width: 50%;
+        font-size: 12px;
+    }
+}
+
+.radiobtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -30px;
+}
+
+.mainradiobtn1{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: #ffffff;
+    padding: 1px 5px;
+    width: 126px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+@media all and (max-width:625px){
+    .radiobtn{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .mainradiobtn{
+        padding: 0;
+        display: flex !important;
+        justify-content: flex-start !important;
+    }
+}
+
+.radiobtninner{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: center;
+    height: 4rem;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.radioInput{
+    margin-bottom: 1rem;
+}
+
+.mainradiobtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainradiobtn p{
+    margin-bottom: 0;
+    font-size: 17px;
+}
+.mainradiobtn div{
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.airportOptions{
+    margin-bottom: 2rem;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+.airportpickupActive{
+    color: #7142f8;
+    font-size: 14px;
+}
+.airportpickupInactive{
+    color: #DCD0FF;
+    font-size: 14px;
+}
+.airportdropActive{
+    color: #7142f8;
+    font-size: 14px;
+}
+.airportdropInactive{
+    color: #DCD0FF;
+    font-size: 14px;
+}
+.airportreturnActive{
+    color: #7142f8;
+    font-size: 14px;
+}
+.airportreturnInactive{
+    color: #DCD0FF;
+    font-size: 14px;
+}
+
+.airportOptions div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@media all and (max-width:1111px){
+    .mainradiobtn div{
+        justify-content: flex-start;
+    }
+}
+.mainradiobtn div{
+    cursor: pointer;
+}
+.mainradiobtn input{
+    width: 30px;
+}
+
+.mainradiobtn2{
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    display: none;
+}
+.bannerControlBtnActive{
+    margin: 0.5rem;
+    border: 0;
+    padding: 0.2rem 0.3rem;
+    border-radius: 2px;
+    background-color: #7142ff;
+    font-size: 12px;
+    color: #ffffff;
+    display: none;
+}
+.bannerControlBtnInactive{
+    margin: 0.5rem;
+    border: 0;
+    padding: 0.2rem 0.3rem;
+    border-radius: 2px;
+    font-size: 12px;
+    display: none;
+}
+
+@media all and (max-width:992px){
+    .radiobtn{
+        display: none;
+    }
+
+    .mainradiobtn2{
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+    }
+    .bannerControlBtnActive{
+        display: block;
+        font-weight: 600;
+    }
+    .bannerControlBtnInactive{
+        display: block;
+        font-weight: 600;
+    }
+}
+
+
+
+.searchbtndiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radioinput{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 2%;
+}
+.radioinput p{
+    text-align: left;
+    font-size: small;
+}
+.inputLebal{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.inputLebal label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.directionbtn{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radioInputCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+.radioInputCol input{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 0.5rem 0;
+}
+.radioInputCol label{
+    font-size: large;
+}
+.radioInputArrow{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media all and (max-width:768px){
+    .radioInputArrow{
+        display: none;
+    }
+    .hero__form {
+        
+        padding: 1rem 0;
+        padding-bottom: 2rem;
+    }
+    .radioinput{
+        
+        gap: 2rem;
+    }
+    .mainradiobtn p{
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+    .airportOptions{
+        gap: 2rem;
+        font-size: 15px;
+    }
+}
+@media all and (max-width:740px){
+    .airportOptions{
+        gap: 1rem;
+        font-size: 12px;
+    }
+}
+
+#roundtrip, #rental, #airport{
+    display: none;
+    
+}
+.css-1u9des2-indicatorSeparator{
+    display: none;
+}
+.css-tj5bde-Svg{
+    display: none !important;
+} 
+.css-13cymwt-control{
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid black !important;
+    padding: 0;
+    background-color: white !important;
+    font-size: 15px !important;
+}
+
+.addCity .css-tj5bde-Svg{
+    display: block !important;
+}
+
+.react-datepicker__input-container {
+    font-size: 13px;
+}
+
+/* .addCity .css-13cymwt-control{
+    overflow-y: scroll;
+    height: 25px;
+} */
+
+.react-datepicker-popper{
+    scroll-snap-type: none;
+    float: left;
+}
+
+.react-datepicker__time-list{
+    overflow-x: hidden;
+}
+
+.react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range, .react-datepicker__month-text--selected, .react-datepicker__month-text--in-selecting-range, .react-datepicker__month-text--in-range, .react-datepicker__quarter-text--selected, .react-datepicker__quarter-text--in-selecting-range, .react-datepicker__quarter-text--in-range, .react-datepicker__year-text--selected, .react-datepicker__year-text--in-selecting-range, .react-datepicker__year-text--in-range {
+    border-radius: 0.3rem;
+    background-color: #7142f8;
+    color: #fff;
+}
+
+
+@media all and (max-width:767px){
+    .css-13cymwt-control{   
+        font-size: 13px !important;
+    }
+    .radioInputCol label{
+        font-size: 13px;
+    }
+    .radioInputCol input{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .react-datepicker__day, .react-datepicker__time-name {
+        margin: 2px;
+    }
+    .react-datepicker__month-container {
+        float: left;
+        width:194px;
+    }
+    .react-datepicker__time-container{
+        float: right;
+        border-left: 1px solid #aeaeae;
+        width: 77px;
+        height: 208px;
+    }
+    .react-datepicker__time-list-item  .react-datepicker__time-list-item--selected{
+        width: 77px;
+    }
+    .react-datepicker {
+        color: #000;
+        height: 220px;
+        border: 1px solid #aeaeae;
+        border-radius: 0.3rem;
+        display: inline-block;
+        position: relative;
+        font-size: 10px;
+    }
+    .react-datepicker__time-box{
+        height: 178px;
+    }
+    .react-datepicker__day-name {
+        color: #000;
+        display: inline-block;
+        width: 23px;
+        line-height: 1.7rem;
+        text-align: center;
+        margin: 0.166rem;
+    }
+    .react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list {
+        width: 76px;
+    }
+}
+
+@media all and (max-width:321px){
+    .react-datepicker__time-container{
+        float: right;
+        border-left: 1px solid #aeaeae;
+        width: 66px;
+        height: 200px;
+    }
+    .css-13cymwt-control{   
+        font-size: 13px !important;
+    }
+    .radioInputCol label{
+        font-size: 13px;
+    }
+    .radioInputCol input{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .airportOptions div {
+        display: flex;
+        align-items: flex-start;
+        gap: 5px;
+        font-size: 10px;
+    }
+}
+    

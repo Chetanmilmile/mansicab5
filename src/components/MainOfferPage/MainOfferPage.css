@@ -1,0 +1,138 @@
+.topOfferSection{
+    background: url('../../../public/offersbg.png');
+    background-size: cover;
+    background-position: 100%;
+    padding: 4%;
+}
+
+.offerrow1 h1{
+    color: white;
+}
+.offerrow1 .col2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col2 img{
+    max-width: 10rem;
+}
+
+.offercardcol2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.bottomOfferSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.offercardSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.offercardSection h3{
+    border-bottom: 2px solid #7142f8;
+    margin: 2rem 0;
+}
+
+.offercards{
+    padding: 2rem 2rem 0 2rem;
+    width: 70vw;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.offercardimg{
+    width: 100%;
+    border-radius: 5px;
+}
+.offercardstop{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 100%;
+}
+
+.offercardstop div{
+    width: 100%;
+    border-bottom: 2px solid #7142f8;
+    text-align: center;
+    font-weight: bold;
+}
+.offercardstop h6{
+    font-weight: bolder;
+}
+
+.offerCode{
+    display: flex;
+    gap: 1rem;
+}
+.offercardsmiddle{
+    display: flex;
+    align-items: flex-start;
+}
+.offercardsmiddle{
+    width: 100%;
+    margin: 1rem 0;
+}
+.offercardsmiddle p{
+    color: #3f3e3e;
+    padding: 0;
+    font-size: medium;
+}
+.offercardsmiddle h5{
+    
+    font-weight: bolder;
+}
+
+.offerCode{
+    margin: 1rem 0;
+}
+
+.offerCode div{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: dashed 1px black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+    background-color: #ecfffd;
+}
+
+.offercardsbottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+.offercardsbottom div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offercardsbottom button{
+    width: 100%;
+    border-radius: 30px;
+    color: white;
+    background: linear-gradient(180deg, #7142ff 40%, #c9b9f8 100%);
+    border: 0;
+    padding: 5px 0;
+    font-weight: bold;
+}
+.offercardsbottom p{
+    color: #7142ff;   
+    font-weight: bold;
+}

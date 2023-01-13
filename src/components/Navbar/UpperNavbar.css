@@ -1,0 +1,173 @@
+.upperNavContainer{
+    background-color: #25aae1;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.upperNavLeft{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.upperNavRight a{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.tagline{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.upperNavRight{
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+.upperNavRight div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uppernavwhats{
+    color: white;
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 0.2rem;
+    font-size: x-large;
+    cursor: pointer;
+}
+.uppernavCall{
+    color: white;
+    font-size: x-large;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+@media all and (max-width:1024px){
+    .upperNavRight a{
+        font-size: 17px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    .uppernavwhats{
+        color: white;
+        background-color: #25d366;
+        border-radius: 50%;
+        padding: 0.2rem;
+        font-size: x-large;
+        cursor: pointer;
+    }
+    .uppernavCall{
+        color: white;
+        font-size: large;
+        margin: 0.5rem;
+        cursor: pointer;
+    }
+    .upperNavRight{
+        width: 40%;
+        margin-right: 0;
+    }
+    .upperNavLeft{
+        width: 64%;
+    }
+}
+@media all and (max-width:768px){
+    .upperNavRight a{
+        font-size: 13px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+    .upperNavLeft{
+        width: 55%;
+    }
+    .upperNavRight{
+        width: 45%;
+        gap: 0;
+    }
+}
+@media all and (max-width:530px){
+    .tagline{
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+    .upperNavContainer{
+        flex-direction: column;
+        padding-top: 0.5rem;
+    }
+    
+    .upperNavLeft{
+        width: 100%;
+    }
+    .upperNavRight{
+        width: 100%;
+        gap: 1rem;
+    }
+    .upperNavContainer a{
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+@media all and (max-width:400px){
+    
+    .upperNavRight{
+        gap: 10px;
+    }
+    .upperNavContainer a{
+        font-size: 15px;
+    }
+    .upperNavContainer h5{
+        font-size: 15px;
+    }
+}
+@media all and (max-width:321px){
+    .upperNavLeft{
+        width: 100%;
+    }
+    .upperNavRight{
+        width: 100%;
+        gap: 0.5rem;
+        
+    }
+    .upperNavContainer a{
+        font-size: 13px;
+        font-weight: bold;
+    }
+}
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+@media all and (max-width:450px){
+    
+    .socialIcons{
+        gap: 0;
+    }
+    .fb{
+        font-size: x-large;
+    }
+    .twitter{
+        font-size: x-large;
+    }
+    .gmail{
+        font-size: x-large;
+    }
+}
+
+

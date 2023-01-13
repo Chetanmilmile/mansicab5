@@ -1,0 +1,142 @@
+.mainblogcontainer{
+    width: 100%;
+    background-color: #ecfffd;
+}
+
+/*.blogsrow1{
+    display: flex;
+    align-items: flex-end;
+     margin: 0;
+    padding: 0; /
+}
+.blogsrow1 img{
+    width: 100%;
+}
+
+.blogSearch{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+    background-color: white;
+    gap: 2rem;
+}
+.blogSearch h5{
+   text-align: center;
+}
+
+.blogserchimgmain{
+    display: flex;
+    gap: 0.2rem;
+}
+.blogserchimg{
+    display: flex;
+    gap: 1rem;
+    max-width: 13rem;
+}
+.blogserchimg img{
+    width: 80px;
+}
+
+@media all and (max-width:768px){
+    .blogserchimg img{
+        width: 80%;
+    }
+}
+.blogserchimg p{
+    font-size: 90%;
+}
+
+.placeserchbar{
+    width: 16rem;
+}
+*/
+.blogsrow2{
+    margin: 1rem 0.5rem;
+    display: flex;
+     align-items: flex-start; 
+    justify-content: center;
+}
+
+.searchplacesCard{
+    border-radius: 5px;
+    max-width: 23rem;
+    padding: 5px;
+}
+.searchplacesCard img{
+    width: 100%;
+}
+.searchplacesCarddata{
+    padding: 6%;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+.searchplacesCarddata p{
+    font-size: 12px;
+    color: #4f4d4d;
+}
+.searchplacesCarddata h6{
+    font-weight: bolder;
+}
+.searchplacesCardtitle{
+    color: #7142f8;
+    font-weight: bolder;
+
+}
+.searchplacesCard a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #7142f8;
+}
+
+
+.blogcity{
+    font-weight:700 ;
+    position:sticky !important;
+    top: 10px;
+    left: 0px;
+    background-color: white;
+    padding: 10px;
+    /* margin-top: 10px; */
+    border-right: 1px solid black;
+}
+.blogcityimg1{
+    cursor: pointer;
+}
+.blogcityimg li{
+    list-style: none;
+    line-height: 35px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.blogcityimg li:hover{
+    font-size: 16px;
+}
+.blogslider{
+    width: 100%;
+    padding: 25px;
+}
+.blogslider .slick-slide{
+   padding: 0 5px;
+}
+.blogcityimg1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 19px;
+}
+.blogcityimg{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+}
+.blogcityimg img{
+    border-radius: 50%;
+    width: 25px;
+}
